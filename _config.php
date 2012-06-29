@@ -8,3 +8,4 @@ if (!extension_loaded('zip')) {
 }
 
 Object::add_extension('CMSMain', 'SiteExportExtension');
+Object::add_extension('CMSSettingsController', 'SiteExportExtension');
